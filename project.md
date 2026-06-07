@@ -141,7 +141,7 @@ NEXT_PUBLIC_APP_URL=
 
 ## Links
 
-- **Repo**: https://github.com/[username]/ai-news-claude
+- **Repo**: https://github.com/WindWinVin011/ai-news-claude
 - **Production**: https://ai-news-claude.vercel.app (รอ deploy)
 - **Supabase Project**: (รอเชื่อมต่อ)
 - **Vercel Project**: (รอ deploy)
