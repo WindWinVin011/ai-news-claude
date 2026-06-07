@@ -1,0 +1,42 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/eddu/Downloads/ai-news-claude/.claude/hooks/pre-tool-log.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/eddu/Downloads/ai-news-claude/.claude/hooks/post-session-notify.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx tsc*)",
+      "Bash(npx eslint*)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add src/*)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(find . *)"
+    ]
+  }
+}
